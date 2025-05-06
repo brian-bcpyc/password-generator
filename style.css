@@ -1,0 +1,48 @@
+body {
+  font-family: Arial, Helvetica;
+  text-align: center;
+  background-color: lightgrey;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+#container {
+  display: inline-block;
+  background-color: white;
+  box-shadow: 0px 0px 30px;
+  padding: 0px 30px;
+  padding-bottom: 30px;
+  border-radius: 10px;
+  margin: 50px;
+}
+
+h1 {
+  color: hsl(240, 100%, 40%);
+}
+
+#input-row {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* adds space between items */
+  justify-content: center; /* center the row if you want */
+}
+
+#textBox {
+  padding: 3px;
+}
+
+#checkbox-label {
+  display: inline-block;
+  padding-top: 10px;
+}
+
+#checkbox-Group {
+  margin-top: 5px;
+  display: inline-block;
+  text-align: left;
+}
+
+#result {
+  display: inline-block;
+  padding-top: 10px;
+}
