@@ -28,7 +28,26 @@ h1 {
 }
 
 #textBox {
-  padding: 3px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+button {
+  height: 34px;
+  border: none;
+  border-radius: 5px;
+  background-color: hsl(240, 100%, 80%);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: hsl(240, 100%, 30%);
+}
+
+button:active {
+  background-color: hsl(240, 100%, 80%);
 }
 
 #checkbox-label {
